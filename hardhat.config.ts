@@ -35,7 +35,7 @@ const config: HardhatUserConfig = {
       url: process.env.RINKEBY_URL || '',
       accounts:
         process.env.RINKEBY_PRIVATE_KEY !== undefined ? [process.env.RINKEBY_PRIVATE_KEY] : [],
-      gasPrice: 30000000000,
+      gasPrice: 50000000000,
     },
   },
   gasReporter: {
