@@ -1,9 +1,31 @@
 # ERC1155 with ERC2981 Standard
 
-- This project implement [erc1155 standard](https://eips.ethereum.org/EIPS/eip-1155) with royalty [erc2981 standard](https://eips.ethereum.org/EIPS/eip-2981)
+- This project implement [erc1155](https://eips.ethereum.org/EIPS/eip-1155) with [erc2981](https://eips.ethereum.org/EIPS/eip-2981) royalty standard.
 
 # Motivation
  - This project inspired by the famous P2E game Axie Infinity
+
+# Project Structure
+```
+.
+├── README.md
+├── contracts
+│   └── Land.sol
+├── deploy
+│   ├── 1_deploy_token.ts
+│   └── 2_mint_tokens.ts
+├── hardhat.config.ts
+├── helpers
+│   ├── hardhat-config.ts
+│   └── verify.ts
+├── package-lock.json
+├── package.json
+├── scripts
+├── test
+│   └── index.ts
+├── tsconfig.json
+└── typechain
+```
 
 # Setup
  - Clone this project and run the following command
