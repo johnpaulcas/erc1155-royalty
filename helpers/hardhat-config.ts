@@ -1,10 +1,10 @@
 export interface networkConfigItem {
-  ethUsdPriceFeed?: string;
-  blockConfirmations?: number;
+  ethUsdPriceFeed?: string
+  blockConfirmations?: number
 }
 
 export interface networkConfigInfo {
-  [key: string]: networkConfigItem;
+  [key: string]: networkConfigItem
 }
 
 export const networkConfig: networkConfigInfo = {
@@ -18,6 +18,6 @@ export const networkConfig: networkConfigInfo = {
   rinkeby: {
     blockConfirmations: 3,
   },
-};
+}
 
-export const developmentChains = ["hardhat", "localhost"];
+export const developmentChains = ['hardhat', 'localhost']
